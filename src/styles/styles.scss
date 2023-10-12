@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import "map.scss";
+@import "card.scss";
+@import "regions.scss";
+@import "button-default.scss";
+
+body {
+  margin: 0px;
+  background: #ECF1F8
+}
+
+.navbar {
+  background-color: $primaryDark;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.continue-button {
+  border-radius: 100px;
+
+margin: 8px;
+margin-top: 40px;
+  background-color: $primary
+}
+
+.name-input {
+  background-color: $grey-bg;
+  border-width: 0px;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+

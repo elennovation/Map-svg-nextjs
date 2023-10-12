@@ -1,0 +1,27 @@
+@import "variables.scss";
+
+.svg-map {
+  width: 100%;
+  height: auto;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+svg path {
+  stroke: darkgray;
+  stroke-width: 1;
+}
+
+.svg-map__location {
+  fill: white;
+  cursor: pointer;
+}
+
+.svg-map__location:focus,
+.svg-map__location:hover {
+  fill: $primaryLight;
+  outline: 2;
+}
+.svg-map__location[aria-checked="true"] {
+  fill: $primary;
+}

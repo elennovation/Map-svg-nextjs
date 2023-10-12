@@ -1,0 +1,27 @@
+.regions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.region {
+  width: 120px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: $grey-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 10px;
+}
+
+.region:hover {
+  cursor: pointer;
+  background-color: #3EBC0C;
+  color: white;
+}
+
+.region.selected {
+  background-color: #3EBC0C;
+  color: white;
+}
